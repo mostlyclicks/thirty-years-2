@@ -1,0 +1,17 @@
+#media-query-flag {
+	width:200px;
+	height:50px;
+	background-color:gray;
+	position:fixed;
+	top:28px;
+	right:-50px;
+	z-index: 30000;
+	line-height:50px;
+	padding-left:50px;
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);
+	color:#fff;
+	font-weight: 800;
+	&:after {content: 'X-Small - < 768px';}
+}
