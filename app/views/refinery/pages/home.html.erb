@@ -13,8 +13,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-5 col-lg-6 col-lg-offset-1">
-				<h1>So much has changed,<br />
-				but the search remains the same.</h1>
+				<%= raw @page.content_for(:headline) %>
 			</div>
 			<div class="col-sm-6 col-lg-5" >
 				<%#= image_tag 'APP-BOX-TOP.png', class: 'img-responsive' %>
@@ -26,7 +25,9 @@
 						<%= link_to (image_tag 'apple.png'), 'https://itunes.apple.com/us/app/rossignol-shreddin-since-87/id1193299498?mt=8', id: 'apple' %>
 						<%= link_to (image_tag 'google.png'), 'https://play.google.com/store/apps/details?id=com.wearetopsecret.rossignol', id: 'google' %>
 
-						<h3 class="text-center" id="play-game">Play the game and enter to win a<br /><em>Limited Edition XV Sushi!</em></h3>
+						<h3 class="text-center" id="play-game">
+							<%= raw @page.content_for(:link_prompt) %>
+						</h3>
 					</div>
 				</div>
 			</div>
@@ -37,13 +38,8 @@
 <section id="rossignol-30-years">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-lg-11 col-lg-offset-1"><p>In 1987, Rossignol made a commitment to what was still considered by many to be: A “flash-in-the-pan” trend that was “destined to fade away”.</p>
-			
-			<p>Instead snowboarding changed everything.</p>
-
-			<p>Now 30 years later, we look back at the iconic athletes, innovations, and moments that have helped shape and define the history of Rossignol Snowboards.</p>	
-
-			<p>Drop in and take the ride.</p>
+			<div class="col-sm-12 col-lg-11 col-lg-offset-1">
+				<%= raw @page.content_for(:header_body) %>
 			</div>
 		</div>
 	</div>
@@ -64,51 +60,7 @@
 		</div>
 		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-6 col-lg-5">
 			<ul class="timeline">
-				<li>
-					<h2>1987</h2>
-					<h3>The Avion</h3>
-					Rossignol's first foray into snowboarding was a stiff, wide, directional deck with a slightly tapered tail. An obvious precursor to today's modern "throwback" directional shapes. 
-				</li>
-
-				<li>
-					<h2>1994</h2>
-					<h3>Dave Seone</h3>
-					<p>Fine-tuned by one of the sport’s most influential riders, Rossignol’s first pro model board helped steer the brand away from race and toward the growing freestyle market.</p>
-				</li>
-
-				<li>
-					<h2>1995</h2>
-					<h3>Jonas Emery</h3>
-					<p>The remarkable Swiss rider was one of the next iconic riders to join the team. Emery would go onto  have an amazing career with the brand and create six pro model boards.</p>
-				</li>
-
-				<li>
-					<h3>The Cob / Seone / Tin Man</h3>
-					With a new focus on freestyle, the Rossignol Snowboards began hitting its stride. Seone’s pro model featured a painting from another up-and-coming snowboard icon – his friend, Jamie Lynn.
-				</li>
-
-				<li>
-					<h2>1996</h2>
-					<h3>The SIS Binding</h3>
-					<p>Invented by our subsidiary, Emery, Rossignol introduced one of first the “step-in” bindings. It would prove successful until the market trended back toward traditional strap-in bindings.</p>
-				</li>
-
-				<li>
-					<h2>1997</h2>
-					<h3>The Undertaker</h3>
-					<p>Our first pow-specific swallow-tail was offered in a 196cm only and became a favorite that ran in the line for years. Our innovative Isocore© technology kept it reasonably light for its size.</p>
-				</li>
-
-				<li>
-					<h2>1998/99</h2>
-					<h3>THC Core: Triple Hybrid Construction</h3>
-					<p>Created for the Litovaara and Pelchat Pro models, THC was a benchmark innovation in snowboard construction that combined full strips of wood, Isocore©, and Microcell into the core.</p>
-				</li>
-				<li>
-					<h2>1997 - 2000</h2>
-					<h3>Iconic Riders &amp; Rossignol</h3>
-					<p>Rossignol nurtured the start of many of the most iconic riders in snowboarding including:  Jonas Emery, Aleksi Litovaara, Jeremy Jones, Andrew Crawford, Todd Richards, JF Pelchat, Doriane Vidal, Tadashi Fuse, Ron Chiodi, and Travis Rice.</p>
-				</li>
+				<%= raw @page.content_for(:first_decade) %>
 			</ul>
 		</div>
 	</div>
@@ -126,69 +78,7 @@
 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-5 col-lg-5">
 			<ul class="timeline">
-				<li>
-					<h2>2000/01</h2>
-					<h3>Sublime &amp; Diva</h3>
-					<p>Bolstered by Doriane Vidal, Rossignol introduced its first “women-specific” snowboards. Boards that packed real punch but in more appropriate widths and sizes.</p>
-				</li>
-
-				<li>
-					<h2>2001</h2>
-					<h3>Travis Rice: Rookie of the Year</h3>
-					<p>TransWorld Snowboarding recognized this legend in the making during his breakout 01/02 season when he was still new to the Rossignol Snowboards team.</p>
-				</li>
-
-				<li>
-					<h2>2001 - 2005</h2>
-					<h3>Doriane Vidal Dominates</h3>
-					<p>Joining the team at the close of ’98, France’s own Vidal went on to win the silver medal in the ’02 Olympics in Salt Lake City, while winning the World Championships in half-pipe in ‘01, ‘03, and ’05.</p>
-				</li>
-
-				<li>
-					<h2>2002 - 2005</h2>
-					<h3>The Pro Model Era</h3>
-					<p>Some of the most iconic models and graphics of this era were attributed to some of the most iconic athletes in the sport: Crawford , Richards, Emery, Jones, and Rice.</p>
-				</li>
-
-				<li>
-					<h2>2003 - 2006</h2>
-					<h3>RS</h3>
-					<p>In an effort to get further out from under Alpine’s shadow, the Snowboard division was rebranded “RS” to mixed success. “You shouldn’t be afraid of what you are,” said Jan Recorbet, Snowboard Division Manager.</p>
-				</li>
-
-				<li>
-					<h2>2004 - 2006</h2>
-					<h3>ProjecTour Volume 1 &amp; 2</h3>
-					<p>TransWorld Snowboarding and the RS team including: JF Pelchat, Hana Beaman, Travis Rice, Jeremy Jones, Eero Niemela, and others collaborated on the two volume series.</p>
-
-					<p>Take a trip back in time and watch it <%= link_to 'here!', 'https://youtu.be/54x4FRucB1c' %></p>
-				</li>
-
-				<li>
-					<h2>2005/06</h2>
-					<h3>Xavier de Le Rue</h3>
-					<p>The heir apparent to Jeremy Jones’ throne, the Frenchman has carved out an incredible career with Rossignol and is involved as ever still today with trips, special projects, and new product designs.</p> 
-
-					<p>Check out his recent DIY series <%=  link_to 'here.', 'http://www.rossignol.com/news--1qf5a92ig0s0.html' %></p>
-				</li>
-
-				<li>
-					<h2>2006/07</h2>
-					<h3>The One</h3>
-					<p>“The One to have when you can only have One.” Although it’s evolved over the years in almost every aspect including flex, shape, and construction, the One has been a popular staple in the collection for over 10 years now.</p>
-				</li>
-
-				<li>
-					<h2>2007</h2>
-					<h3>Protect Our Winters</h3>
-					<p>In partnership with Jeremy Jones, Rossignol helped fund the Protect Our Winters platform in an effort to draw awareness to the harmful effects of climate change. Learn how you can get involved <%= link_to 'here', 'https://protectourwinters.org/' %>.</p>
-				</li>
-
-				<li>
-					<h2>2009/10</h2>
-					<h3>Amptek</h3>
-					<p>First introduced on that years’ new Angus and Jones Experience boards, Rossignol’s revolutionary blend of rocker and camber is a signature technology that’s still featured today with different blends tailored specific riding styles.</p>
-				</li>
+				<%= raw @page.content_for(:second_decade) %>
 			</ul>
 		</div>
 		<!-- col-xs-10 col-xs-offset-1 col-sm-7 col-md-5 -->
@@ -213,49 +103,9 @@
 			</div>
 			<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-5">
 				<ul class="timeline">
-          			<li>
-						<h2>2010</h2>
-						<h3>XDLR: 3X Freeride World Champion</h3>
-						<p>Already a four-time World Champion in boardercross, Xavier brought his fast and aggressive riding style to the Freeride World Tour. He went onto become overall FWT champion three years in a row.</p>
-					</li>
+					<%= raw @page.content_for(:third_decade) %>
 
-					<li>
-						<h2>2011/12</h2>
-						<h3>The Next-Gen: Jibsaw &amp; Krypto</h3>
-						<p>Ushering in a new generation of Rossignol technology and craftsmanship, two of today’s still most popular decks made their introduction. The Krypto would go on to win Outside Magazine’s “Gear of the Year”.</p>
-					</li>
-
-					<li>
-						<h2>2013/14</h2>
-						<h3>XV Pro Model</h3>
-						<p>The initial release of Xavier’s pro model was met with award-winning reviews and a strong following amongst dedicated riders. It’s seen some slight tweaks since, and is now available in a splitboard version as well.</p>
-
-						<h3>RadCut &amp; Roller</h3>
-						<p>Two of Rossignol’s newest contributions to snowboard technology were initially introduced on the innovative RockNRolla deck. Today each techno has been adapted in multiple versions to fit the needs of specific boards and riding styles.</p>
-					</li>
-
-					<li>
-						<h2>2015/16</h2>
-						<h3>L.I.T.E. Frame</h3>
-						One of our most eye-catching innovations, this game-changing new visual technology was first introduced with the new One and Diva models for 15/16 season to wild acclaim and strong sales.
-					</li>
-
-          			<li>
-						<h2>2016/17</h2>
-						<h3>Trickstick &amp; Asym L.I.T.E.</h3>
-						<p>Yet another entirely new concept in snowboard construction introduced by your friends at Rossignol, Asym L.I.T.E. allowed us to build the first pressure-sensitive sidecut, creating a consistent feel on both toe and heel-side edges.</p>
-					</li>
-
-					<li>
-						<h2>2017</h2>
-						<h3>Marion Haerty: FWT Champion</h3>
-						<p>In only her second year competing on the Freeride World Tour, the former boardercross and freestyle competitor laid claim to the throne, becoming the 2017 Freeride World Tour Champion.</p>
-					</li>
-
-					<li>
-						<h2>XV Sushi &amp; Sushi Split</h2>
-						<p>Inspired by the intersection of snow and surf and the roots of snowboarding, Xavier’s latest creation with Rossignol is a throwback design – similar in some ways to the original Avion. But with new L.I.T.E Grip tech and Xavier’s influence, the Sushi is poised to become the next iconic model from Rossignol.</p>
-					</li> 
+         
 				</ul>
 			</div>
 		</div>
