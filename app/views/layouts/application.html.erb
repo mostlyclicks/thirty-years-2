@@ -4,14 +4,12 @@
   <head>
     <%= render "/refinery/head" %>
     <%= render "/refinery/javascripts" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body id="<%= canonical_id @page %>" class="<%= view_template_class @page %>">
     <%= site_bar -%>
     <div id="page_container">
       <div id="media-query-flag"></div>
-      <header id="header">
-        <%= render "/refinery/header" -%>
-      </header>
       <section id="page">
         <%= yield %>
       </section>

@@ -1,1 +1,211 @@
 
+h1, h2, h3, p, li {
+	font-family: Gotham, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+a {
+	text-decoration: underline;
+}
+
+
+#shreddin-since-87 {
+	background-image:url("../assets/HEADER.png");
+	background-size:150%;
+	background-repeat: no-repeat;
+	background-position-x:50%;
+	background-position-y:50%;
+	height:25vh;
+}
+
+#app-box-top {
+	margin:0 auto 0 auto;
+	border:10px solid #5043f9;
+	padding:5px;
+	background-color:#f3f4f5;
+	width:450px;
+	position:relative;
+	#app-box-top-inner {
+		border:7px solid #379fef;
+		min-height:300px;
+		position:relative;
+	}
+	
+	#rossignol-87 {
+		position:absolute;
+		left:40px;
+		top:30px;
+		width:144px;
+		height:144px;
+		background-color:#ffffff;
+		border-radius:10px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+		img {
+			margin-top:17px;
+		}
+	}
+	
+	#play-game {
+			display:block;
+			position:absolute;
+			top:190px;
+			left:20px;
+		}
+	
+	a#apple {
+		display:block;
+		width:146px;
+		height:40px;
+		background-color:transparent;
+		position:absolute;
+		left:220px;
+		top:52px;
+		color:transparent;
+	}
+
+	a#google {
+		display:block;
+		width:146px;
+		height:40px;
+		background-color:transparent;
+		position:absolute;
+		left:220px;
+		top:100px;
+		color:transparent;
+	}
+}
+
+#header-app-store {
+	h1 {
+		display:block;
+		font-size:28px;
+		margin:0;
+		padding-top:.5em;
+		padding-bottom:.8em;
+		margin:0 auto;
+	}
+	img {
+		margin:0 auto;
+	}
+}
+
+
+
+#rossignol-30-years {
+	margin:30px 0;
+}
+
+ul.timeline {
+	display:block;
+	background-color:#ffffff;
+	margin-top:40px;
+	padding:30px;
+	list-style: none;
+	border-radius:15px;
+
+	li {
+		margin-bottom:1em;
+		h2 {
+			color:red;
+			margin:0;
+			font-size:18px;
+		}
+		h3 {
+			margin:0;
+			font-size:13px;
+			font-weight:800;
+		}
+	}
+	box-shadow:5px 5px 10px rgba(0,0,0, .2);
+}
+
+#first-decade {
+	background-image:url("/assets/BLOCK_1_BACKGROUND.jpg");
+	background-size: 750px;
+	background-position:6% 25%;
+	background-repeat:no-repeat;
+	position:relative;
+	img {
+		position:relative;
+		z-index:100;
+	}
+}
+
+#the-avion {
+	position:absolute;
+	top:70px;
+	left:-80px;
+	z-index:5000;
+
+}
+
+#seone {
+	position:absolute;
+	top:430px;
+	right:-85px;
+	z-index:5002;
+}
+
+#richards {
+	position:absolute;
+	top:70px;
+	left:-95px;
+	z-index:5003;
+
+}
+
+#xv-pro {
+	position:absolute;
+	top:630px;
+	right:-85px;
+	z-index:5004;
+}
+
+#one-mag {
+	position:absolute;
+	top:70px;
+	left:-75px;
+	z-index:5005;
+
+}
+
+#sushi {
+	position:absolute;
+	top:550px;
+	right:-80px;
+	z-index:5006;
+}
+
+#second-decade {
+	position:relative;
+	background-image:url("/assets/BLOCK_2_BG_TEMP_ci.png");
+	background-size: cover;
+	background-position:50% 0%;
+	background-repeat:no-repeat;
+	.timeline {margin-top:50px;}
+	img {
+		position:relative;
+		z-index:101;
+	}
+}
+
+#third-decade {
+	position:relative;
+	background-image:url("/assets/BLOCK_3_BACKGROUND.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	.timeline {margin-top:50px;}
+	img {
+		position:relative;
+		z-index:102;
+	}
+}
+
+#thirty-year-anniversary {
+	img {margin:0 auto;}
+
+}
+
+#bottom-app-links img {
+		margin-top:0px;
+	}

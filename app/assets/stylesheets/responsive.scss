@@ -3,22 +3,163 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
+	/*html {border:3px solid red;}*/
 	#media-query-flag {background-color:red;}
 	#media-query-flag:after {content: 'Small - 768px';}
+
+	
+	#shreddin-since-87 {
+		height:31vh;
+		background-size:130%;
+	}
+
+
+	#header-app-store {
+		img {
+			margin-top:-20%;
+		}
+	}
+
+	#first-decade {
+		/*height:150vh;*/
+		background-size:120%;
+		background-position:15% 20% ;
+	}
+
+	#second-decade {
+		margin-top:50px;
+		/*background-size:100%;*/
+		background-size:100%;
+		background-position:50% 20%;
+		img {margin-top:0px;margin-left:-70px;}
+		.timeline {margin-top:-200px;}
+	}
+
+	#third-decade {
+		.timeline {
+			margin-top:-225px;
+		}
+		img {
+			margin-top:-50px;
+		}
+	}
+	#app-box-top {
+		width:430px;
+		margin-top:-140px;
+	}
+	#rossignol-87 {left:0px;}
+	a#apple {}
+	a#google {}
+	#bottom-app-links {
+		img {margin-top:0px;}
+	}
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	/*html {border:3px solid blue;}*/
 	#media-query-flag {background-color:blue;}
 	#media-query-flag:after {content: 'Medium - 992px';}
 
+	#shreddin-since-87 {
+		height:40vh;
+		background-size:120%;
+	}
+
+	#header-app-store {
+		h1 {
+			margin-top:1em;
+			font-size:32px;
+		}
+	}
+
+	#first-decade {
+		/*height:150vh;*/
+		background-size:100%;
+		background-position:60% 20% ;
+		.timeline {margin-top:100px;}
+	}
+
+	#second-decade {
+		margin-top:50px;
+		/*background-size:100%;*/
+		background-size:cover;
+		/*float:left;*/
+		/*width:100%;*/
+		background-position:50% 0%;
+		img {margin-top:50px;left:-20px;}
+		.timeline {margin-top:-70px;}
+	}
+
+	#third-decade {
+		background-size:cover;
+		background-position:50% 0%;
+
+		height:auto;
+		img {
+			margin-top:-40px;
+		}
+
+	}
+	#app-box-top {
+		width:450px;
+		margin-top:-140px;
+	}
+	#bottom-app-links {
+		img {margin-top:0px;}
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	/*html {border:3px solid green;}*/
 	#media-query-flag {background-color:green;}
 	#media-query-flag:after {content: 'Large - 1200px';}
 
+	#shreddin-since-87 {
+		/*min-height:60vh;*/
+		background-size:cover;
+		background-position: 50% -70px;
+	}
+
+	#header-app-store {
+		h1 {
+			margin-top:1.25em;
+			font-size:35px;
+		}
+	}
+
+	#first-decade {
+		background-size:cover;
+		background-position: 50% 0%;
+		.timeline {margin-top:-30px;}
+		img {
+			right:-60px;
+		}
+	}
+
+	#second-decade {
+		
+		/*height:92vh;*/
+		img {
+			left:-30px;
+			top:-90px;
+		}
+	}
+
+	#third-decade {
+		/*margin-top:-400px;*/
+		height:auto;
+		.timeline {
+			margin-top:-50px;
+		}
+	}
+
+	#bottom-app-links {
+		img {
+			margin-top:0px;
+		}
+	}
 }
