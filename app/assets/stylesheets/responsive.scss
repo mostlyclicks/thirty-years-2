@@ -10,9 +10,34 @@
 
 	
 	#shreddin-since-87 {
-		height:31vh;
+		height:42vh;
 		background-size:130%;
 	}
+
+#app-box-top {
+	border:7px solid #5043f9;
+	top:20px;
+	#app-box-top-inner {
+		min-height:240px;
+		border:5px solid #379fef;
+
+	}
+	#rossignol-87 {
+	top:25px;
+	width:130px;
+	height:130px;
+
+	}
+	#play-game {
+			display:block;
+			position:absolute;
+			top:150px;
+			left:70px;
+		}
+		h3 {font-size:18px;}
+
+}
+
 
 
 	#header-app-store {
@@ -64,9 +89,19 @@
 	#media-query-flag:after {content: 'Medium - 992px';}
 
 	#shreddin-since-87 {
-		height:40vh;
+		height:50vh;
 		background-size:120%;
 	}
+
+	#app-box-top {
+	border:10px solid #5043f9;
+	
+	#app-box-top-inner {
+		
+		border:7px solid #379fef;
+
+	}
+}
 
 	#header-app-store {
 		h1 {
