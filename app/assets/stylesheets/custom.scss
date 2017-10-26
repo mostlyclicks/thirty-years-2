@@ -1,4 +1,8 @@
 
+#wrapper {
+	overflow:hidden;
+}
+
 h1, h2, h3, p, li {
 	font-family: Gotham, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
@@ -9,7 +13,7 @@ a {
 
 
 #shreddin-since-87 {
-	background-image:url("../assets/HEADER.png");
+	background-image:url("../assets/Header_Background-2.png");
 	background-size:150%;
 	background-repeat: no-repeat;
 	background-position-x:50%;
@@ -17,12 +21,42 @@ a {
 	height:25vh;
 }
 
+#thirty-years-logo {
+	margin-top:35px;
+}
+
+#header-app-store-xs {
+	h1 {font-size:28px;}
+}
+
+#app-box-outer {
+	border:7px solid #5043f9;
+	margin-top:20px;
+	background-color:#f3f4f5;
+	padding:5px;
+}
+
+#app-box-inner {
+	border:7px solid #379fef;
+	#ross-87-sm {
+		width:144px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+		background-color:#ffffff;
+		border-radius:10px;
+	}
+	h3 {
+		font-size:18px;
+	}
+
+}
+
 #app-box-top {
 	margin:0 auto 0 auto;
 	border:10px solid #5043f9;
 	padding:5px;
 	background-color:#f3f4f5;
-	width:450px;
+	/*width:450px;*/
+	width:90%;
 	position:relative;
 	#app-box-top-inner {
 		border:7px solid #379fef;
@@ -30,7 +64,7 @@ a {
 		position:relative;
 	}
 	
-	#rossignol-87 {
+	.rossignol-87 {
 		position:absolute;
 		left:40px;
 		top:30px;
@@ -87,6 +121,8 @@ a {
 		margin:0 auto;
 	}
 }
+
+
 
 
 
