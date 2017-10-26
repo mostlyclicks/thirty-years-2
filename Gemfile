@@ -28,15 +28,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer'
 gem 'rails_12factor'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug'
@@ -50,6 +41,7 @@ group :development do
   # gem 'spring'
 end
 
+gem 'refinerycms-i18n'
 gem 'refinerycms', '~> 3.0.0'
 gem 'refinerycms-authentication-devise', '~> 1.0'
 gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.7']
