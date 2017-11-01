@@ -41,6 +41,10 @@ group :development do
   # gem 'spring'
 end
 
+group :production do
+  gem "puma"
+end
+
 gem 'refinerycms-i18n'
 gem 'refinerycms', '~> 3.0.0'
 gem 'refinerycms-authentication-devise', '~> 1.0'
