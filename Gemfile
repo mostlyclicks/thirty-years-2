@@ -43,6 +43,7 @@ end
 
 group :production do
   gem "puma"
+  gem 'heroku-deflater'
 end
 
 gem 'refinerycms-i18n'
